@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main>
-      This is home page
-      <Link href="/pricing">about</Link>
+    <div>
+      This is pricing page
+      <Link href="/">Home</Link>
       <div className="next-image">
         <Image
           src="/image.jpg"
@@ -618,6 +618,6 @@ export default function Home() {
           className="img"
         />
       </div>
-    </main>
+    </div>
   );
 }
