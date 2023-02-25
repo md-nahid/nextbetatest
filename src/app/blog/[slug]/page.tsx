@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Pricing() {
+export default function Blog() {
   return (
     <div>
-      This is pricing page
       <Link href="/">Home</Link>
       <br />
-      <Link href="/blog/123">blog</Link>
+      <Link href="/pricing">pricing</Link>
       <div className="next-image">
         <Image
           src="/image.jpg"
